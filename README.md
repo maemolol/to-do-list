@@ -25,13 +25,27 @@ Simple React To-Do List
 **Инициализация проекта:** Установка React и необходимых зависимостей (например, create-react-app для создания структуры проекта). <br>
 **Создание компонента App:** Определение состояния, включающего список задач и функции для добавления, удаления и обновления задач.<br>
 **Добавление компонентов:** <br>
-    - ToDoList для отображения списка. <br>
+- ToDoList для отображения списка. <br>
     - ToDoItem для каждой задачи. <br>
     - AddTaskForm для ввода новой задачи.<br>
 **Реализация функциональности:** <br>
-    - Логика для добавления задач через AddTaskForm. <br>
+- Логика для добавления задач через AddTaskForm. <br>
     - Логика для удаления и отметки выполнения в ToDoItem. <br>
     UI стилизация: Использование CSS для создания минималистичного и интуитивного интерфейса.
     Тестирование: Проверка функциональности и исправление ошибок.
 
+### Instalation and running
+```bash
+# Clone the repository
+git clone <repository_URL>
+
+# Navigate to the project directory
+cd <project_folder_name>
+
+# Install dependencies
+npm install
+
+# Start the application
+npm start
+```
 <img src="img/HL_Arhitecture.excalidraw.png" alt="name" width="100" height="150">
