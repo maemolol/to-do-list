@@ -36,7 +36,7 @@ Simple React To-Do List
 
 ### Instalation and running
 ---
-```bash
+```shell
 # Clone the repository
 git clone <repository_URL>
 
@@ -49,4 +49,4 @@ npm install
 # Start the application
 npm start
 ```
-<img src="img/HL_Arhitecture.excalidraw.png" alt="name" width="100" height="150">
+<img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="100" height="150">
