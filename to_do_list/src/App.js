@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import ToDoList from './components/ToDoList';
+import AddTaskForm from './components/AddTaskForm';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    const [tasks, setTasks] = useState([]);
+
+    const addTask = (taskName) => {
+        const newTask = { id: Date.now(), name: taskName, completed: false };
+        setTasks([...tasks, newTask]);
+    };
+
+    const deleteTask = (id) => {
+        setTasks(tasks.filter(task => task.id !== id));
+    };
+
+    const toggleComplete = (id) => {
+        setTasks(
+            tasks.map(task =>
+                task.id === id ? { ...task, completed: !task.completed } : task
+            )
+        );
+    };
+
+    return (
+        <div>
+            <h1>To-Do List</h1>
+            <AddTaskForm addTask={addTask} />
+            <ToDoList tasks={tasks} deleteTask={deleteTask} toggleComplete={toggleComplete} />
+        </div>
+    );
+};
 
 export default App;
