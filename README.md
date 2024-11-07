@@ -64,6 +64,6 @@ npm start
 
 ## Projects persons
 
-**Alan Arzumanajns** - alanarzumanjans@gmail.com
-**Mark Korobkin** - 
-**Danila Petrikov** - 
+**Alan Arzumanajns** - alanarzumanjans@gmail.com <br>
+**Mark Korobkin** - markkorobkin85@gmail.com <br>
+**Danila Petrikov** - danilapetrikov563@gmail.com
