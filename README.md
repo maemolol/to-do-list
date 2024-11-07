@@ -61,3 +61,9 @@ npm install
 npm start
 ```
 <img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="100" height="150">
+
+## Projects persons
+
+**Alan Arzumanajns** - alanarzumanjans@gmail.com
+**Mark Korobkin** - 
+**Danila Petrikov** - 
