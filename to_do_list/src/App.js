@@ -23,7 +23,6 @@ const App = () => {
         );
     };
 
-
     const updateTask = (id, newName) => {
         setTasks(
             tasks.map(task =>
@@ -31,7 +30,6 @@ const App = () => {
             )
         );
     };
-
 
     const filteredTasks = tasks.filter(task => {
         if (filter === 'completed') return task.completed;
@@ -42,7 +40,6 @@ const App = () => {
     const sortedTasks = [...filteredTasks].sort((a, b) => a.completed - b.completed);
 
     return (
-        
         <div>
             <h1>To-Do List</h1>
             <div>
@@ -55,6 +52,5 @@ const App = () => {
         </div>
     );
 };
-
 
 export default App;
