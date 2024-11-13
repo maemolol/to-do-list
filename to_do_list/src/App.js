@@ -31,11 +31,13 @@ const App = () => {
         );
     };
 
+
     const filteredTasks = tasks.filter(task => {
         if (filter === 'completed') return task.completed;
         if (filter === 'active') return !task.completed;
         return true;
     });
+
 
     const sortedTasks = [...filteredTasks].sort((a, b) => a.completed - b.completed);
 
@@ -52,5 +54,6 @@ const App = () => {
         </div>
     );
 };
+
 
 export default App;
