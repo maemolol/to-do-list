@@ -27,8 +27,10 @@ Simple React To-Do List
 - **<a href="to_do_list/src/components/ToDoList.js">ToDoList.js:</a>** Компонент, принимающий массив задач из App.js и рендерящий каждый элемент ToDoItem.
 - **<a href="to_do_list/src/components/ToDoItem.js">ToDoItem.js:</a>** Компонент для отдельной задачи, включает кнопку для удаления и отметку выполнения.
 - **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>** Форма, позволяющая пользователям добавлять новую задачу в список.
----
+
 ## Workflow <a name="workflow"></a>
+
+---
 
 **Инициализация проекта:** Установка React и необходимых зависимостей (например, create-react-app для создания структуры проекта). <br>
 **Создание компонента App:** Определение состояния, включающего список задач и функции для добавления, удаления и обновления задач.<br>
