@@ -7,6 +7,8 @@ Simple React To-Do List
 2. [Components](#components)
 3. [Workflow](#workflow)
 4. [Installation and running](#installation)
+5. [Technologies](#technologies)
+6. [Team](#team)
 
 ## Objectives <a name="objectives"></a>
 ---
@@ -50,7 +52,7 @@ Simple React To-Do List
     UI стилизация: Использование CSS для создания минималистичного и интуитивного интерфейса.
     Тестирование: Проверка функциональности и исправление ошибок.
 
-**Technologies:** <br>
+## Technologies: <a name="technologies"></a>
 
 - HTML - реализация основы сайта <br>
 - CSS - реализация стиля сайта <br>
@@ -59,6 +61,7 @@ Simple React To-Do List
 
 **Бюджет:** <br>
 0 долларов
+
 ## Instalation and running <a name="installation"></a>
 ---
 ```shell
@@ -76,7 +79,7 @@ npm start
 ```
 <img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="100" height="150">
 
-## Team
+## Team <a name="team"></a>
 ---
 ### Team Lead:
 **Alan Arzumanajns** <br>
