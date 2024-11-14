@@ -3,12 +3,18 @@ Simple React To-Do List
 
 # Table of contents
 
-1. [Objectives](#objectives)
-2. [Components](#components)
-3. [Workflow](#workflow)
-4. [Installation and running](#installation)
-5. [Technologies](#technologies)
-6. [Team](#team)
+- [README](#readme)
+- [Table of contents](#table-of-contents)
+  - [Objectives ](#objectives-)
+  - [High-Level Architecture](#high-level-architecture)
+  - [Components ](#components-)
+  - [Workflow ](#workflow-)
+  - [Technologies: ](#technologies-)
+  - [Instalation and running ](#instalation-and-running-)
+  - [Team ](#team-)
+    - [Team Lead:](#team-lead)
+    - [Developers:](#developers)
+  - [iljabomz9@gmail.com](#iljabomz9gmailcom)
 
 ## Objectives <a name="objectives"></a>
 ---
@@ -78,7 +84,7 @@ npm install
 npm start
 ```
 
-<img src="img\HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="400px">
+<img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="300px">
 
 ## Team <a name="team"></a>
 ---
