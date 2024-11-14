@@ -7,10 +7,15 @@ Simple React To-Do List
 2. [Components](#components)
 3. [Workflow](#workflow)
 4. [Installation and running](#installation)
+5. [Technologies](#technologies)
+6. [Team](#team)
 
 ## Objectives <a name="objectives"></a>
 ---
-Проект направлен на создание простого и удобного списка задач с базовой функциональностью: добавление, удаление, отметка выполнения задач, редактирование и сортировка. Основная цель — изучение React и взаимодействие между компонентами, а также реализация основного CRUD-функционала.
+Проект направлен на создание простого и удобного списка задач с 
+базовой функциональностью: добавление, удаление, отметка выполнения задач, редактирование и сортировка. 
+Основная цель — изучение React и взаимодействие между компонентами, а также реализация основного CRUD-функционала.
+
 ## High-Level Architecture
 
 Архитектура приложения будет включать следующие основные компоненты:
@@ -30,6 +35,8 @@ Simple React To-Do List
 
 ## Workflow <a name="workflow"></a>
 
+---
+
 **Инициализация проекта:** Установка React и необходимых зависимостей (например, create-react-app для создания структуры проекта). <br>
 **Создание компонента App:** Определение состояния, включающего список задач и функции для добавления, удаления и обновления задач.<br>
 **Добавление компонентов:** <br>
@@ -44,6 +51,16 @@ Simple React To-Do List
 - Логика для удаления и отметки выполнения в ToDoItem. <br>
     UI стилизация: Использование CSS для создания минималистичного и интуитивного интерфейса.
     Тестирование: Проверка функциональности и исправление ошибок.
+
+## Technologies: <a name="technologies"></a>
+
+- HTML - реализация основы сайта <br>
+- CSS - реализация стиля сайта <br>
+- JavaScript/React - реализация механик сайта <br>
+- PostgreSQL - реализация базы данных пользователей
+
+**Бюджет:** <br>
+0 долларов
 
 ## Instalation and running <a name="installation"></a>
 ---
@@ -62,8 +79,16 @@ npm start
 ```
 <img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="100" height="150">
 
-## Projects persons
-
-**Alan Arzumanajns** - alanarzumanjans@gmail.com <br>
-**Mark Korobkin** - markkorobkin85@gmail.com <br>
-**Danila Petrikov** - danilapetrikov563@gmail.com
+## Team <a name="team"></a>
+---
+### Team Lead:
+**Alan Arzumanajns** <br>
+alanarzumanjans@gmail.com 
+### Developers:
+**Mark Korobkin** <br>
+markkorobkin85@gmail.com <br>
+**Danila Petrikov** <br>
+danilapetrikov563@gmail.com <br>
+**Ilja Prohodko** <br>
+iljabomz9@gmail.com
+---
