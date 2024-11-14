@@ -48,6 +48,14 @@ Simple React To-Do List
     UI стилизация: Использование CSS для создания минималистичного и интуитивного интерфейса.
     Тестирование: Проверка функциональности и исправление ошибок.
 
+**Tehnologies:** <br>
+- HTML - реализация основы сайта
+- CSS - реализация стиля сайта
+- JavaScript/React - реализация механик сайта
+- PostgreSQL - реализация базы данных пользователей
+
+**Бюджет:** <br>
+0 долларов
 ## Instalation and running <a name="installation"></a>
 ---
 ```shell
@@ -65,8 +73,16 @@ npm start
 ```
 <img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="100" height="150">
 
-## Projects persons
-
-**Alan Arzumanajns** - alanarzumanjans@gmail.com <br>
-**Mark Korobkin** - markkorobkin85@gmail.com <br>
-**Danila Petrikov** - danilapetrikov563@gmail.com
+---
+## Team
+### **Team Lead:**
+**Alan Arzumanajns** <br>
+alanarzumanjans@gmail.com 
+### **Developers:**
+**Mark Korobkin** <br>
+markkorobkin85@gmail.com <br>
+**Danila Petrikov** <br>
+danilapetrikov563@gmail.com <br>
+**Ilja Prohodko** <br>
+iljabomz9@gmail.com
+---
