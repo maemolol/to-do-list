@@ -77,7 +77,7 @@ npm install
 # Start the application
 npm start
 ```
-<img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="100px" height="150px">
+<img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="10%" height="15%">
 
 ## Team <a name="team"></a>
 ---
