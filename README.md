@@ -3,18 +3,13 @@ Simple React To-Do List
 
 # Table of contents
 
-- [README](#readme)
-- [Table of contents](#table-of-contents)
-  - [Objectives ](#objectives-)
-  - [High-Level Architecture](#high-level-architecture)
-  - [Components ](#components-)
-  - [Workflow ](#workflow-)
-  - [Technologies: ](#technologies-)
-  - [Instalation and running ](#instalation-and-running-)
-  - [Team ](#team-)
-    - [Team Lead:](#team-lead)
-    - [Developers:](#developers)
-  - [iljabomz9@gmail.com](#iljabomz9gmailcom)
+  1. [Objectives](#objectives)
+  2. [High-Level Architecture](#high_level_arhitecture)
+  3. [Components](#components)
+  4. [Workflow](#workflow)
+  5. [Technologies](#technologies)
+  6. [Instalation and running ](#installation)
+  7. [Team](#team)
 
 ## Objectives <a name="objectives"></a>
 ---
@@ -22,7 +17,7 @@ Simple React To-Do List
 базовой функциональностью: добавление, удаление, отметка выполнения задач, редактирование и сортировка. 
 Основная цель — изучение React и взаимодействие между компонентами, а также реализация основного CRUD-функционала.
 
-## High-Level Architecture
+## High-Level Architecture <a name="high_level_arhitecture"></a>
 
 Архитектура приложения будет включать следующие основные компоненты:
 
