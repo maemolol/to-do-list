@@ -71,10 +71,13 @@ npm start
 <img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="100" height="150">
 
 ## Projects developers
-#### **Team Lead:**
+### **Team Lead:**
 **Alan Arzumanajns** <br>
 alanarzumanjans@gmail.com 
-#### **Developers:**
-**Mark Korobkin** - markkorobkin85@gmail.com <br>
-**Danila Petrikov** - danilapetrikov563@gmail.com <br>
-**Ilja Prohodko** - iljabomz9@gmail.com
+### **Developers:**
+**Mark Korobkin** <br>
+markkorobkin85@gmail.com <br>
+**Danila Petrikov** <br>
+danilapetrikov563@gmail.com <br>
+**Ilja Prohodko** <br>
+iljabomz9@gmail.com
