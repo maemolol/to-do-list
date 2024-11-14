@@ -73,7 +73,7 @@ npm start
 ## Projects developers
 #### **Team Lead:** <br>
 ** **Alan Arzumanajns** - alanarzumanjans@gmail.com <br>
-Developers:
+#### Developers:
 **Mark Korobkin** - markkorobkin85@gmail.com <br>
 **Danila Petrikov** - danilapetrikov563@gmail.com <br>
 **Ilja Prohodko** - iljabomz9@gmail.com
