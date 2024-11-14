@@ -3,12 +3,13 @@ Simple React To-Do List
 
 # Table of contents
 
-1. [Objectives](#objectives)
-2. [Components](#components)
-3. [Workflow](#workflow)
-4. [Installation and running](#installation)
-5. [Technologies](#technologies)
-6. [Team](#team)
+  1. [Objectives](#objectives)
+  2. [High-Level Architecture](#high_level_arhitecture)
+  3. [Components](#components)
+  4. [Workflow](#workflow)
+  5. [Technologies](#technologies)
+  6. [Instalation and running ](#installation)
+  7. [Team](#team)
 
 ## Objectives <a name="objectives"></a>
 ---
@@ -16,7 +17,7 @@ Simple React To-Do List
 базовой функциональностью: добавление, удаление, отметка выполнения задач, редактирование и сортировка. 
 Основная цель — изучение React и взаимодействие между компонентами, а также реализация основного CRUD-функционала.
 
-## High-Level Architecture
+## High-Level Architecture <a name="high_level_arhitecture"></a>
 
 Архитектура приложения будет включать следующие основные компоненты:
 
@@ -77,18 +78,21 @@ npm install
 # Start the application
 npm start
 ```
-<img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="200px">
+<img src="img/HL_Arhitecture.excalidraw.png" alt="High level arhitecture image" width="300px">
 
 ## Team <a name="team"></a>
 ---
 ### Team Lead:
 **Alan Arzumanajns** <br>
 alanarzumanjans@gmail.com 
+
 ### Developers:
+
 **Mark Korobkin** <br>
 markkorobkin85@gmail.com <br>
 **Danila Petrikov** <br>
 danilapetrikov563@gmail.com <br>
 **Ilja Prohodko** <br>
 iljabomz9@gmail.com
+
 ---
