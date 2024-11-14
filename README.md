@@ -9,8 +9,10 @@ Simple React To-Do List
 4. [Installation and running](#installation)
 
 ## Objectives <a name="objectives"></a>
-
-Проект направлен на создание простого и удобного списка задач с базовой функциональностью: добавление, удаление, отметка выполнения задач, редактирование и сортировка. Основная цель — изучение React и взаимодействие между компонентами, а также реализация основного CRUD-функционала.
+---
+Проект направлен на создание простого и удобного списка задач с 
+базовой функциональностью: добавление, удаление, отметка выполнения задач, редактирование и сортировка. 
+Основная цель — изучение React и взаимодействие между компонентами, а также реализация основного CRUD-функционала.
 
 ## High-Level Architecture
 
@@ -76,10 +78,10 @@ npm start
 
 ---
 ## Team
-### **Team Lead:**
+### Team Lead:
 **Alan Arzumanajns** <br>
 alanarzumanjans@gmail.com 
-### **Developers:**
+### Developers:
 **Mark Korobkin** <br>
 markkorobkin85@gmail.com <br>
 **Danila Petrikov** <br>
