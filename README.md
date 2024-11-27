@@ -108,8 +108,36 @@ src/
 
 - **React**: Ensure you have React installed (`react` and `react-dom`).
 - **ToDoItem Component**: Implement or include the `ToDoItem` component.
-
+<br>
 - **<a href="to_do_list/src/components/ToDoItem.js">ToDoItem.js:</a>** A component for a single task, including a delete button and a complete mark.
+### Input and Output
+
+#### Input:
+
+The `ToDoItem` component takes the following as inputs:
+
+**Props:**
+
+- `task`: An object containing the task details (ID, name, and completion state).
+- `deleteTask`: A function to handle the task deletion.
+- `toggleComplete`: A function to toggle the completion status of the task.
+- `updateTask`: A function to update the task name.
+
+**User Input:**
+
+- Text input for editing task names when in editing mode.
+
+#### Output:
+
+The component provides the following outputs:
+
+- Renders a styled `<li>` element representing the task with:
+  - Task name or an editable input field.
+  - Buttons for editing, completing/unmarking, and deleting.
+- Calls to the provided functions (`deleteTask`, `toggleComplete`, `updateTask`) with the relevant task ID and data based on user interaction.
+Why did Mark bring a ladder and a Dr. Pepper to the party?
+
+Because he wanted to reach new heights and stay peppered up! 
 - **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>**
 
 This React component, AddTaskForm, allows users to add new tasks via a form. It uses the following key features:
