@@ -4,93 +4,92 @@ Simple React To-Do List
 
 # Table of contents
 
-  1. [Objectives](#objectives)
-  2. [High-Level Architecture](#high_level_arhitecture)
-  3. [Components](#components)
-  4. [Workflow](#workflow)
-  5. [Technologies](#technologies)
-  6. [Instalation and running](#installation)
-  7. [Team](#team)
+1. [Objectives](#objectives)
+2. [High-Level Architecture](#high_level_arhitecture)
+3. [Components](#components)
+4. [Workflow](#workflow)
+5. [Technologies](#technologies)
+6. [Instalation and running](#installation)
+7. [Team](#team)
 
 ## Objectives <a name="objectives"></a>
 
 ---
-Проект направлен на создание простого и удобного списка задач с
-базовой функциональностью: добавление, удаление, отметка выполнения задач, редактирование и сортировка.
-Основная цель — изучение React и взаимодействие между компонентами, а также реализация основного CRUD-функционала.
+The project aims to create a simple and convenient task list with basic functionality: adding, deleting, marking tasks as completed, editing and sorting.
+The main goal is to study React and interaction between components, as well as implementing basic CRUD functionality.
 
 ## High-Level Architecture <a name="high_level_arhitecture"></a>
 
-Архитектура приложения будет включать следующие основные компоненты:
+The application architecture will include the following main components:
 
-- **App:** Главный компонент приложения, который управляет состоянием списка задач и передает данные компонентам.
-- **ToDoList:** Компонент, который отображает список всех задач, полученных от компонента App.
-- **ToDoItem:** Отдельный компонент для каждой задачи, включает название задачи, кнопку для удаления, отметку выполнения и возможность редактирования.
-- **AddTaskForm:** Компонент формы для добавления новой задачи с полем ввода и кнопкой добавления.
+- **App:** The main application component that manages the state of the task list and passes data to components.
+- **ToDoList:** A component that displays a list of all tasks received from the App component.
+- **ToDoItem:** A separate component for each task, includes the task name, a button for deleting, a completion mark, and the ability to edit.
+- **AddTaskForm:** A form component for adding a new task with an input field and an add button.
 
-Все компоненты взаимодействуют через props и state. Состояние задач (список и изменения) хранится в компоненте App, что обеспечивает "единый источник правды".
+All components interact via props and state. The state of tasks (list and changes) is stored in the App component, which provides a "single source of truth".
 
 ## Components <a name="components"></a>
 
 - **<a href="to_do_list/src/App.js">App.js:</a>** <br>
-App.js — это корневой компонент приложения To-Do List.  <br>
-Его задача — управлять состоянием задач, предоставлять функциональность для взаимодействия с ними (добавление, удаление, редактирование, изменение статуса) и делегировать отображение данных дочерним компонентам. <br>
-Архитектурная структура
+App.js is the root component of the To-Do List application. <br>
+Its purpose is to manage the state of tasks, provide functionality for interacting with them (adding, deleting, editing, changing status), and delegate data display to child components. <br>
+Architectural structure
 
-### Входные данные (Input): <br>
+### Input: <br>
 
-**Данные от пользователя**: <br>
-Текст новой задачи (через компонент AddTaskForm). <br>
-Действия пользователя: <br>
+**User input**: <br>
+New task text (via the AddTaskForm component). <br>
+User actions: <br>
 
-- добавление,
-- удаление,
-- изменение статуса,
-- редактирование задачи.
-Выбор фильтра (все, активные, завершенные).
-**Внутренние состояния компонента App**:
-- Список задач.
-- Выбранный фильтр.
+- adding,
+- deleting,
+- changing status,
+- editing a task.
+Filter selection (all, active, completed).
+**Internal states of the App component**:
+- Task list.
+- Selected filter.
 
-### Выходные данные (Output)
+### Output
 
-Отфильтрованный и отсортированный список задач, передаваемый в компонент ToDoList.
-Функции для управления задачами (addTask, deleteTask, toggleComplete, updateTask), передаваемые дочерним компонентам.
+A filtered and sorted list of tasks passed to the ToDoList component.
+Task management functions (addTask, deleteTask, toggleComplete, updateTask) passed to child components.
 
-- **<a href="to_do_list/src/components/ToDoList.js">ToDoList.js:</a>** Компонент, принимающий массив задач из App.js и рендерящий каждый элемент ToDoItem.
-- **<a href="to_do_list/src/components/ToDoItem.js">ToDoItem.js:</a>** Компонент для отдельной задачи, включает кнопку для удаления и отметку выполнения.
-- **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>** Форма, позволяющая пользователям добавлять новую задачу в список.
+- **<a href="to_do_list/src/components/ToDoList.js">ToDoList.js:</a>** A component that takes an array of tasks from App.js and renders each ToDoItem.
+- **<a href="to_do_list/src/components/ToDoItem.js">ToDoItem.js:</a>** A component for a single task, including a delete button and a complete mark.
+- **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>** A form that allows users to add a new task to the list.
 
 ## Workflow <a name="workflow"></a>
 
 ---
 
-**Инициализация проекта:** Установка React и необходимых зависимостей (например, create-react-app для создания структуры проекта). <br>
-**Создание компонента App:** Определение состояния, включающего список задач и функции для добавления, удаления и обновления задач.<br>
-**Добавление компонентов:** <br>
+**Initialize the project:** Install React and necessary dependencies (e.g. create-react-app to create the project structure). <br>
+**Create the App component:** Define a state that includes a list of tasks and functions to add, remove, and update tasks.<br>
+**Add components:** <br>
 
-- ToDoList для отображения списка. <br>
-- ToDoItem для каждой задачи. <br>
-- AddTaskForm для ввода новой задачи.<br>
+- ToDoList to display the list. <br>
+- ToDoItem for each task. <br>
+- AddTaskForm to enter a new task.<br>
 
-**Реализация функциональности:** <br>
+**Implement the functionality:** <br>
 
-- Логика для добавления задач через AddTaskForm. <br>
-- Логика для удаления и отметки выполнения в ToDoItem. <br>
-    UI стилизация: Использование CSS для создания минималистичного и интуитивного интерфейса.
-    Тестирование: Проверка функциональности и исправление ошибок.
+- Logic for adding tasks via AddTaskForm. <br>
+- Logic for removing and marking complete in ToDoItem. <br>
+UI styling: Using CSS to create a minimalist and intuitive interface.
+Testing: Checking the functionality and fixing bugs.
 
 ## Technologies: <a name="technologies"></a>
 
-- HTML - реализация основы сайта <br>
-- CSS - реализация стиля сайта <br>
-- JavaScript/React - реализация механик сайта <br>
-- PostgreSQL - реализация базы данных пользователей
+- HTML - implementation of the site's base <br>
+- CSS - implementation of the site's style <br>
+- JavaScript/React - implementation of the site's mechanics <br>
+- PostgreSQL - implementation of the user database
 
-**Бюджет:** <br>
-0 долларов
+**Budget:** <br>
+0 dollars
 
-## Instalation and running <a name="installation"></a>
+## Installation and running <a name="installation"></a>
 
 ---
 
