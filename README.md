@@ -56,7 +56,59 @@ Filter selection (all, active, completed).
 A filtered and sorted list of tasks passed to the ToDoList component.
 Task management functions (addTask, deleteTask, toggleComplete, updateTask) passed to child components.
 
-- **<a href="to_do_list/src/components/ToDoList.js">ToDoList.js:</a>** A component that takes an array of tasks from App.js and renders each ToDoItem.
+- **<a href="to_do_list/src/components/ToDoList.js">ToDoList.js:</a>** # **README for ToDoList Component**
+
+# **README for ToDoList Component**
+
+## **Overview**
+
+The `ToDoList` component is a reusable React component designed to render a dynamic list of tasks. It delegates the display and interaction of each task to the `ToDoItem` component, enabling modular and scalable task management functionality.
+
+---
+
+## **Features**
+
+- Displays a list of tasks from a given array.
+- Allows deletion of tasks through a provided `deleteTask` callback.
+- Enables toggling of task completion status using the `toggleComplete` callback.
+
+---
+
+## **Installation**
+
+To use the `ToDoList` component in your project, ensure you have the following:
+
+1. A React environment set up.
+2. The `ToDoItem` component, as it is a dependency of `ToDoList`.
+
+### **Steps**
+
+1. Clone or copy the `ToDoList.js` file and ensure the `ToDoItem.js` component is implemented in the same directory.
+2. Import the `ToDoList` component into your project:
+    
+    ```jsx
+    import ToDoList from './ToDoList';
+    ```
+
+
+## **Folder Structure**
+
+Ensure your project has the following structure for proper usage:
+
+```
+src/
+├── components/
+│   ├── ToDoList.js
+│   ├── ToDoItem.js
+``` 
+
+---
+
+## **Dependencies**
+
+- **React**: Ensure you have React installed (`react` and `react-dom`).
+- **ToDoItem Component**: Implement or include the `ToDoItem` component.
+
 - **<a href="to_do_list/src/components/ToDoItem.js">ToDoItem.js:</a>** A component for a single task, including a delete button and a complete mark.
 - **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>** A form that allows users to add a new task to the list.
 
