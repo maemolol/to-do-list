@@ -48,8 +48,8 @@ App.js — это корневой компонент приложения To-Do
   - Выбранный фильтр.
 
 ### Выходные данные (Output):
-        Отфильтрованный и отсортированный список задач, передаваемый в компонент ToDoList.
-        Функции для управления задачами (addTask, deleteTask, toggleComplete, updateTask), передаваемые дочерним компонентам.
+Отфильтрованный и отсортированный список задач, передаваемый в компонент ToDoList.
+Функции для управления задачами (addTask, deleteTask, toggleComplete, updateTask), передаваемые дочерним компонентам.
 - **<a href="to_do_list/src/components/ToDoList.js">ToDoList.js:</a>** Компонент, принимающий массив задач из App.js и рендерящий каждый элемент ToDoItem.
 - **<a href="to_do_list/src/components/ToDoItem.js">ToDoItem.js:</a>** Компонент для отдельной задачи, включает кнопку для удаления и отметку выполнения.
 - **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>** Форма, позволяющая пользователям добавлять новую задачу в список.
