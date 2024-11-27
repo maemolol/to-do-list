@@ -110,7 +110,17 @@ src/
 - **ToDoItem Component**: Implement or include the `ToDoItem` component.
 
 - **<a href="to_do_list/src/components/ToDoItem.js">ToDoItem.js:</a>** A component for a single task, including a delete button and a complete mark.
-- **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>** A form that allows users to add a new task to the list.
+- **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>**
+
+This React component, AddTaskForm, allows users to add new tasks via a form. It uses the following key features:
+
+- State Management: The taskName state tracks the current input value.
+- Event Handling:
+    - onChange updates the taskName state with the input's value.
+    - onSubmit prevents default form behavior, validates the input, and calls the addTask function (received as a prop) to add the task. It then clears the input field.
+- UI: A form with a text input field and a submit button.
+
+This component ensures clean handling of user input and task submission.
 
 ## Workflow <a name="workflow"></a>
 
