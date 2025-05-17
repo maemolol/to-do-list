@@ -56,9 +56,99 @@ Filter selection (all, active, completed).
 A filtered and sorted list of tasks passed to the ToDoList component.
 Task management functions (addTask, deleteTask, toggleComplete, updateTask) passed to child components.
 
-- **<a href="to_do_list/src/components/ToDoList.js">ToDoList.js:</a>** A component that takes an array of tasks from App.js and renders each ToDoItem.
+- **<a href="to_do_list/src/components/ToDoList.js">ToDoList.js:</a>** # **README for ToDoList Component**
+
+# **README for ToDoList Component**
+
+## **Overview**
+
+The `ToDoList` component is a reusable React component designed to render a dynamic list of tasks. It delegates the display and interaction of each task to the `ToDoItem` component, enabling modular and scalable task management functionality.
+
+---
+
+## **Features**
+
+- Displays a list of tasks from a given array.
+- Allows deletion of tasks through a provided `deleteTask` callback.
+- Enables toggling of task completion status using the `toggleComplete` callback.
+
+---
+
+## **Installation**
+
+To use the `ToDoList` component in your project, ensure you have the following:
+
+1. A React environment set up.
+2. The `ToDoItem` component, as it is a dependency of `ToDoList`.
+
+### **Steps**
+
+1. Clone or copy the `ToDoList.js` file and ensure the `ToDoItem.js` component is implemented in the same directory.
+2. Import the `ToDoList` component into your project:
+    
+    ```jsx
+    import ToDoList from './ToDoList';
+    ```
+
+
+## **Folder Structure**
+
+Ensure your project has the following structure for proper usage:
+
+```
+src/
+├── components/
+│   ├── ToDoList.js
+│   ├── ToDoItem.js
+``` 
+
+---
+
+## **Dependencies**
+
+- **React**: Ensure you have React installed (`react` and `react-dom`).
+- **ToDoItem Component**: Implement or include the `ToDoItem` component.
+<br>
 - **<a href="to_do_list/src/components/ToDoItem.js">ToDoItem.js:</a>** A component for a single task, including a delete button and a complete mark.
-- **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>** A form that allows users to add a new task to the list.
+### Input and Output
+
+#### Input:
+
+The `ToDoItem` component takes the following as inputs:
+
+**Props:**
+
+- `task`: An object containing the task details (ID, name, and completion state).
+- `deleteTask`: A function to handle the task deletion.
+- `toggleComplete`: A function to toggle the completion status of the task.
+- `updateTask`: A function to update the task name.
+
+**User Input:**
+
+- Text input for editing task names when in editing mode.
+
+#### Output:
+
+The component provides the following outputs:
+
+- Renders a styled `<li>` element representing the task with:
+  - Task name or an editable input field.
+  - Buttons for editing, completing/unmarking, and deleting.
+- Calls to the provided functions (`deleteTask`, `toggleComplete`, `updateTask`) with the relevant task ID and data based on user interaction.
+Why did Mark bring a ladder and a Dr. Pepper to the party?
+
+Because he wanted to reach new heights and stay peppered up! 
+- **<a href="to_do_list/src/components/AddTaskForm.js">AddTaskForm.js:</a>**
+
+This React component, AddTaskForm, allows users to add new tasks via a form. It uses the following key features:
+
+- State Management: The taskName state tracks the current input value.
+- Event Handling:
+    - onChange updates the taskName state with the input's value.
+    - onSubmit prevents default form behavior, validates the input, and calls the addTask function (received as a prop) to add the task. It then clears the input field.
+- UI: A form with a text input field and a submit button.
+
+This component ensures clean handling of user input and task submission.
 
 ## Workflow <a name="workflow"></a>
 
